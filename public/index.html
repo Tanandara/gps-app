@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>socket.io</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/toastr.min.css">
+
+</head>
+<body>
+	<div class="container">
+		<h2>GPS</h2>
+		<hr/>
+		<div class="row">
+			<div class="col-md-12" id="map" style="width:100%; height:600px">
+			</div>
+			<div class="col-md-12" >
+				<hr/>
+				<input type="text" class="form-control" id="user" />
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/toastr.min.js"></script>
+	<script src="js/socket.io.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
