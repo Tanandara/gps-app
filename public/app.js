@@ -57,19 +57,19 @@ $(function() {
 		//console.log(gpslist);
 	},2000);
 
-	var map= new google.maps.Map(document.getElementById("map"),{
-			center:new google.maps.LatLng(1,1),
-			zoom:10,
-			mapTypeId:google.maps.MapTypeId.ROADMAP
-	});
 
-	map.setCenter({
-		lat: 13.736717, lng: 100.523186
-	});
 });
 
 
+var map= new google.maps.Map(document.getElementById("map"),{
+		center:new google.maps.LatLng(1,1),
+		zoom:10,
+		mapTypeId:google.maps.MapTypeId.ROADMAP
+});
 
+map.setCenter({
+	lat: 13.736717, lng: 100.523186
+});
 
 
 function addclient(data){
