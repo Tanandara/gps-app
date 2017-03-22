@@ -1,6 +1,5 @@
 $(function() {
 	var gpslist=[];
-	var markerlist=[];
 	var socket = io.connect();
   //var socket = io.connect('http://localhost:3000');
 

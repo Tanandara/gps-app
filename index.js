@@ -7,5 +7,5 @@ require('./app/io')(io);
 
 app.use(express.static('public'));
 
-http.listen(3000);
+http.listen(process.env.PORT||3000);
 console.log("running ...");
